@@ -1,0 +1,31 @@
+.wp-block-vyatkait-developers {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	@for $i from 1 through 4 {
+		&.the-#{$i}-columns {
+
+			.wp-block-vyatkait-block {
+				width: calc(100% / #{$i} - 10px);
+			}
+		}
+	}
+
+	.wp-block-vyatkait-block {
+		background-color: #f6f6f6;
+		padding: 20px;
+		border-radius: 30px;
+		box-sizing: border-box;
+		margin-bottom: 20px;
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		h2 {
+			margin-top: 0;
+		}
+	}
+}

@@ -1,0 +1,36 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+.wp-block-vyatkait-developers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.wp-block-vyatkait-developers.the-1-columns .wp-block-vyatkait-block {
+  width: calc(100% / 1 - 10px);
+}
+.wp-block-vyatkait-developers.the-2-columns .wp-block-vyatkait-block {
+  width: calc(100% / 2 - 10px);
+}
+.wp-block-vyatkait-developers.the-3-columns .wp-block-vyatkait-block {
+  width: calc(100% / 3 - 10px);
+}
+.wp-block-vyatkait-developers.the-4-columns .wp-block-vyatkait-block {
+  width: calc(100% / 4 - 10px);
+}
+.wp-block-vyatkait-developers .wp-block-vyatkait-block {
+  background-color: #f6f6f6;
+  padding: 20px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.wp-block-vyatkait-developers .wp-block-vyatkait-block img {
+  max-width: 100%;
+  height: auto;
+}
+.wp-block-vyatkait-developers .wp-block-vyatkait-block h2 {
+  margin-top: 0;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
